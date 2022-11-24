@@ -1,45 +1,131 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 html {
@@ -49,9 +135,12 @@ html {
 }
 
 body {
-    background-color: #60a9ff;
+    background-color: #1f2937;
+    color: white;
     border: 1px solid red;
-    height: 100vh;
+    height: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
 
     /* justify-content: center; */
     /* centers on the main axis */
@@ -67,25 +156,25 @@ header {
     /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
-    padding: 8px 66px;
+    padding-top: 8px;
     text-decoration: none;
     background-color: #1f2937;
     color: white;
 }
 
-.headerlogo{
+.headerlogo {
     /* border: 1px solid red; */
     font-weight: 700;
     font-size: 24px;
-} 
+}
 
-.nav{
+.nav {
     /* border: 1px solid red; */
     color: #e5e7eb;
 }
 
 .nav.signin,
-.nav.schedule{
+.nav.schedule {
     margin-left: 32px;
 }
 
@@ -94,15 +183,54 @@ a {
     color: white;
 }
 
-.topsection{
+.topsection {
     border: 1px solid red;
     display: flex;
+    /* align-items: center; */
+    flex-direction: row;
     background-color: #1f2937;
     color: white;
     height: 30em;
-    padding-top: 6em;
-    padding-left: 66px;
-    padding-right: 66px;
+}
 
-    
+.mainsection {
+    border: 1px solid red;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 66px;
+    max-width: 10em;
+
+}
+
+.subtext {
+    border: 1px solid red;
+    max-width: 30em;
+
+}
+
+.signup {
+    display: inline-block;
+    border: 1px solid #9dd1ff;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+    transition: background-color 200ms ease-in-out;
+    /* inline block basically makes it so that the css added stays
+        within the line */
+
+}
+
+.imgholder{
+    display: flex;
+    flex-grow: 1;
+    /* flex-grow to allow it to fill main axis space */
+    height: 200px;
+    background-color: gray;
+    margin-top: 66px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
