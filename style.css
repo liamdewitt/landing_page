@@ -1,0 +1,96 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    /* for border-box, this makes it so the border width is taken into account*/
+}
+
+body {
+    background-color: #60a9ff;
+    border: 1px solid red;
+    height: 100%;
+
+    /* justify-content: center; */
+    /* centers on the main axis */
+    /* align-items: center; */
+    /* centers on the cross axis */
+    /* without a height, it can't move through the cross axis 
+    with min-height, we make the height 100% of the screen, making it able to
+    be placed in the middle of the cross axis using align-items.*/
+}
+
+header {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 66px;
+    text-decoration: none;
+    background-color: #1f2937;
+    color: white;
+}
+
+.headerlogo{
+    /* border: 1px solid red; */
+    font-weight: 700;
+    font-size: 24px;
+} 
+
+.nav{
+    /* border: 1px solid red; */
+    color: #e5e7eb;
+}
+
+.nav.signin,
+.nav.schedule{
+    margin-left: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
