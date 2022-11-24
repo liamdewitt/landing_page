@@ -190,7 +190,7 @@ a {
     flex-direction: row;
     background-color: #1f2937;
     color: white;
-    height: 30em;
+    /* height: 24em; */
 }
 
 .mainsection {
@@ -205,7 +205,6 @@ a {
 .subtext {
     border: 1px solid red;
     max-width: 30em;
-
 }
 
 .signup {
@@ -233,4 +232,8 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+ section, footer {
+    height: 24em;
 }
