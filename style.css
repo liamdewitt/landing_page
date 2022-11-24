@@ -51,7 +51,7 @@ html {
 body {
     background-color: #60a9ff;
     border: 1px solid red;
-    height: 100%;
+    height: 100vh;
 
     /* justify-content: center; */
     /* centers on the main axis */
@@ -94,3 +94,15 @@ a {
     color: white;
 }
 
+.topsection{
+    border: 1px solid red;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 30em;
+    padding-top: 6em;
+    padding-left: 66px;
+    padding-right: 66px;
+
+    
+}
