@@ -134,20 +134,16 @@ html {
     /* for border-box, this makes it so the border width is taken into account*/
 }
 
-body{
-    /* padding-left: 40px;
-    padding-right: 40px; */
-}
-
 header {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: #1f2937;
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 9em;
+    padding-right: 9em;
     align-items: center;
+    padding-top: 25px;
 }
 
 .slogancont{
@@ -155,9 +151,9 @@ header {
     font-size: 24px;
 }
 
-nav{
-    /* border: 1px solid white; */
-}
+/* nav{
+    border: 1px solid white; 
+} */
 
 /* .headeritem:nth-of-type(1){
     padding: 0;
@@ -186,8 +182,63 @@ main {
     color: white;
     background: #1f2937;
     border: 1px solid red;
-    padding-left: 7em;
-    padding-right: 7em;
-    padding-top: 3.5em;
+    padding: 7em 9em;
+    /* top/bottom 7em | left/right 9em */
 }
 
+.h1main{
+    /* border: 1px solid red; */
+    font-size: 48px;
+    font-weight: 700;
+    /* width: 8em; */
+}
+
+
+.maincont{
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+.pmain{
+    margin-top: 20px;
+    color: #e5e7eb;
+}
+
+.signup-btn{
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.imgcont{
+    /* border: 1px solid red; */
+    width: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.therapistscont{
+    display: flex;
+    /* justify-content: space-between; */
+    color: black;
+    background: white;
+    border: 1px solid red;
+    /* padding: 7em 9em; */
+    padding-top: 3em;
+    padding-left: 9em;
+    padding-right: 9em;
+    justify-content: center;
+}
+
+.h1sec{
+    font-size: 36px;
+    font-weight: 700;
+    border: 1px solid red;
+}
