@@ -181,7 +181,7 @@ main {
     justify-content: space-between;
     color: white;
     background: #1f2937;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 7em 9em;
     /* top/bottom 7em | left/right 9em */
 }
@@ -229,7 +229,7 @@ main {
     /* justify-content: space-between; */
     color: black;
     background: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* padding: 7em 9em; */
     padding-top: 3em;
     padding-left: 9em;
@@ -240,14 +240,14 @@ main {
 .h1sec{
     font-size: 36px;
     font-weight: 700;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.therapistsnames{
+.therapistspics{
     padding-top: 3em;
     padding-left: 13em;
     padding-right: 13em;
-    border: 1px solid green;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -257,4 +257,23 @@ main {
     height: 10em;
     border: 3px solid #3882f6;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.therapistsnames {
+    display: flex;
+    border: 1px solid red;
+    padding-left: 13em;
+    padding-right: 13em;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.name-items {
+    color: #1f2937;
+    /* border: 1px solid red; */
+    width: 10em;
+    text-align: center;
 }
