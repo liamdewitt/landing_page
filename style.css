@@ -146,7 +146,7 @@ header {
     padding-top: 25px;
 }
 
-.slogancont{
+.slogancont {
     /* border: 1px solid yellow; */
     font-size: 24px;
 }
@@ -163,15 +163,15 @@ header {
     color: #e5e7eb;
 }
 
-.headeritem-special{
+.headeritem-special {
     padding: 0;
 }
 
-li{
+li {
     display: inline;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -186,7 +186,7 @@ main {
     /* top/bottom 7em | left/right 9em */
 }
 
-.h1main{
+.h1main {
     /* border: 1px solid red; */
     font-size: 48px;
     font-weight: 700;
@@ -194,17 +194,17 @@ main {
 }
 
 
-.maincont{
+.maincont {
     /* border: 1px solid yellow; */
     width: 50%;
 }
 
-.pmain{
+.pmain {
     margin-top: 20px;
     color: #e5e7eb;
 }
 
-.signup-btn{
+.signup-btn {
     border: 1px solid #3882f6;
     border-radius: 10px;
     background-color: #3882f6;
@@ -214,17 +214,18 @@ main {
     font-weight: 700;
 }
 
-.imgcont{
+.imgcont {
     /* border: 1px solid red; */
     width: 50%;
-    background-color: gray;
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    color: #1f2937;
 }
 
-.therapistscont{
+.therapistscont {
     display: flex;
     /* justify-content: space-between; */
     color: black;
@@ -237,13 +238,13 @@ main {
     justify-content: center;
 }
 
-.h1sec{
+.h1sec {
     font-size: 36px;
     font-weight: 700;
     /* border: 1px solid red; */
 }
 
-.therapistspics{
+.therapistspics {
     padding-top: 3em;
     padding-left: 13em;
     padding-right: 13em;
@@ -252,7 +253,7 @@ main {
     justify-content: space-evenly;
 }
 
-.pic-items{
+.pic-items {
     width: 10em;
     height: 10em;
     border: 3px solid #3882f6;
@@ -260,11 +261,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1f2937;
 }
 
 .therapistsnames {
     display: flex;
-    border: 1px solid red;
+    /* border-bottom: 1px solid red; */
     padding-left: 13em;
     padding-right: 13em;
     justify-content: space-evenly;
@@ -276,4 +278,93 @@ main {
     /* border: 1px solid red; */
     width: 10em;
     text-align: center;
+}
+
+.feedback {
+    /* border: 1px solid red; */
+    display: flex;
+    color: #1f2937;
+    background: #e5e7eb;
+    padding-top: 3em;
+    padding-left: 9em;
+    padding-right: 9em;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.feedback-name {
+    /* border-bottom: 1px solid red; */
+    display: flex;
+    color: #1f2937;
+    background: #e5e7eb;
+    padding-left: 9em;
+    padding-right: 14em;
+    padding-bottom: 3em;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.calltoaction-sec {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 7em 9em;
+}
+
+.cta-cont {
+    background-color: #3882f6;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 3em 9em;
+
+    /* width 100% so i can see the container take up the space the space
+    I've given it */
+}
+
+.cta-cont h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cta-cont p {
+    padding-top: 7px;
+    color: #e5e7eb;
+}
+
+.btn-cont {
+    background-color: #3882f6;
+    /* border: 1px solid red; */
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-btn2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8em;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
