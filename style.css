@@ -242,3 +242,19 @@ main {
     font-weight: 700;
     border: 1px solid red;
 }
+
+.therapistsnames{
+    padding-top: 3em;
+    padding-left: 13em;
+    padding-right: 13em;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic-items{
+    width: 10em;
+    height: 10em;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
